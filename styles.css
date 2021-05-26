@@ -17,6 +17,7 @@ h3 {
 .container {
     width: 900px;
     margin: 60px auto;
+    flex-grow: 1;
 }   
   
 .banner {
@@ -82,9 +83,8 @@ h3 {
 
 .cards {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 16px;
-    width: 900px;
+    width: 90%;
     margin: 0 auto;
   }
   
@@ -118,8 +118,9 @@ h3 {
   .footer {
     background: orangered; 
     color: black;
-    padding: 10px 480px;
+    padding: 10px 0;
     text-align:center;
+    margin: 0 auto;
     
   }
 
